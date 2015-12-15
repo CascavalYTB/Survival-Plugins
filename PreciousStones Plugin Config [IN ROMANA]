@@ -1,0 +1,286 @@
+unbreakable-blocks: []
+force-field-blocks:
+- title: Anti PvP
+  block: 19
+  radius: 60
+  custom-height: 256
+  prevent-fire: true
+  prevent-place: true
+  prevent-destroy: true
+  prevent-pvp: true
+  prevent-vehicle-destroy: true
+  prevent-enderman-destroy: true
+  prevent-explosions: true
+  prevent-unprotectable: true
+  prevent-item-frame-take: true
+  prevent-flow: true
+  protect-crops: true
+  prevent-potion-splash: true
+  prevent-use:
+  - 69
+  - 77
+  - 147
+- title: Diamant
+  block: 57
+  radius: 60
+  custom-height: 256
+  prevent-fire: true
+  prevent-place: true
+  prevent-destroy: true
+  prevent-explosions: true
+  prevent-unprotectable: true
+  prevent-item-frame-take: true
+  prevent-potion-splash: true
+  prevent-flow: true
+  protect-crops: true
+  prevent-use:
+  - 69
+  - 77
+  - 147
+  - 143
+  - 96
+  - 107
+  - 148
+  - 70
+  - 72
+  - 356
+  - 404
+  - 154
+  - 145
+  - 61
+  - 54
+  - 84
+  - 146
+  welcome-message: true
+  farewell-message: true
+  can-change-owner: true
+  enable-on-src: true
+  mixing-group: 1
+  cuboid: true
+  mask-on-disabled: 80
+bypass-blocks: []
+unprotectable-blocks: []
+hiding-mask-blocks:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '7'
+- '12'
+- '13'
+- '17'
+- '18'
+- '20'
+- '24'
+- '35'
+- '43'
+- '45'
+- '47'
+- '48'
+- '49'
+- '53'
+- '60'
+- '67'
+- '80'
+- '81'
+- '82'
+- '87'
+- '88'
+- '89'
+- '99'
+- '100'
+- '108'
+- '109'
+- '110'
+- '123'
+- '124'
+- '125'
+- '128'
+- '134'
+- '135'
+- '136'
+tool-items:
+- 256
+- 257
+- 258
+- 269
+- 270
+- 271
+- 273
+- 274
+- 275
+- 277
+- 278
+- 279
+- 284
+- 285
+- 286
+- 290
+- 291
+- 292
+- 293
+- 294
+repairable-items:
+- 256
+- 257
+- 258
+- 259
+- 261
+- 267
+- 268
+- 269
+- 270
+- 271
+- 272
+- 273
+- 274
+- 275
+- 276
+- 277
+- 278
+- 279
+- 283
+- 284
+- 285
+- 286
+- 290
+- 291
+- 292
+- 293
+- 294
+- 298
+- 299
+- 300
+- 301
+- 302
+- 303
+- 304
+- 305
+- 306
+- 307
+- 308
+- 309
+- 310
+- 311
+- 312
+- 313
+- 314
+- 315
+- 316
+- 317
+- 359
+log:
+  translocation: true
+  rollback: true
+  fire: true
+  entry: true
+  place: true
+  use: true
+  pvp: true
+  destroy: true
+  destroy-area: false
+  place-area: false
+  unprotectable: true
+  bypass-pvp: true
+  bypass-delete: true
+  bypass-place: true
+  bypass-destroy: true
+  conflict-place: true
+  rents-and-purchases: true
+notify:
+  translocation: false
+  rollback: false
+  place: true
+  destroy: true
+  bypass-unprotectable: true
+  bypass-pvp: true
+  bypass-place: true
+  bypass-destroy: true
+  fly-zones: true
+warn:
+  instant-heal: true
+  slow-heal: true
+  slow-damage: true
+  slow-feeding: true
+  slow-repair: true
+  fast-damage: true
+  air: true
+  fire: true
+  entry: true
+  place: true
+  use: true
+  pvp: true
+  destroy: true
+  destroy-area: true
+  unprotectable: true
+  launch: true
+  cannon: true
+  mine: true
+settings:
+  disable-messages: false
+  prevent-removal-if-player-in-field: true
+  use-commands-to-rent: false
+  disable-simpleclans-hook: true
+  max-size-translocation: 100000
+  max-size-translocation-for-redstone: 1000
+  version: 12
+  prevent-place-everywhere:
+  - creative_world
+  prevent-destroy-everywhere:
+  - creative_world
+  show-default-welcome-farewell-messages: true
+  sneak-to-place-field: false
+  sneak-to-place-normal-block: true
+  disable-ground-info: false
+  global-field-limit: 1000000
+  no-refund-for-fields: false
+  public-block-details: false
+  drop-on-delete: true
+  disable-alerts-for-admins: true
+  disable-bypass-alerts-for-admins: false
+  off-by-default: false
+  lines-per-page: 12
+  log-to-hawkeye: false
+  show-debug-info: false
+  blacklisted-worlds:
+  - oras
+  - TheUnderground
+  auto-allow-clan-on-fields: false
+  check-once-per-block-on-move: false
+  use-blockids-in-snitches: false
+  fence-max-depth: 50
+  max-target-distance: 100
+  default-item-currency: '266'
+cuboid:
+  defining-blocktype: 49
+  visualization-blocktype: 20
+cleanup:
+  player-inactivity-purge-days: 180
+  purge-banned-players: true
+saving:
+  frequency-seconds: 1
+  max-records-per-snitch: 50
+visualization:
+  frame-block-type: 20
+  block-type: 20
+  seconds: 30
+  new-dotted-style: true
+  end-on-player-move: false
+  mark-block-type: 49
+  default-density: 8
+  blocks-to-send: 100
+  max-fields-to-visualize-at-once: 5
+  ticks-between-sends: 10
+  visualize-on-expand: true
+grief-revert:
+  min-interval-secs: 30
+  black-list:
+  - '92'
+mysql:
+  enable: false
+  host: localhost
+  port: 3306
+  database: minecraft
+  username: ''
+  password: ''
